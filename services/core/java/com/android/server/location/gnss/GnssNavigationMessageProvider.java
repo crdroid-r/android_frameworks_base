@@ -37,7 +37,7 @@ import com.android.server.location.RemoteListenerHelper;
 public abstract class GnssNavigationMessageProvider
         extends RemoteListenerHelper<Void, IGnssNavigationMessageListener> {
     private static final String TAG = "GnssNavigationMessageProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final GnssNavigationMessageProviderNative mNative;
     private boolean mCollectionStarted;

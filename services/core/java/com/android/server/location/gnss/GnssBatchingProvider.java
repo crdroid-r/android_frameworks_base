@@ -29,7 +29,7 @@ import com.android.internal.annotations.VisibleForTesting;
 public class GnssBatchingProvider {
 
     private static final String TAG = "GnssBatchingProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final GnssBatchingProviderNative mNative;
     private boolean mEnabled;

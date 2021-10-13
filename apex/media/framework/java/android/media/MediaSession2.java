@@ -62,7 +62,7 @@ import java.util.concurrent.Executor;
  */
 public class MediaSession2 implements AutoCloseable {
     static final String TAG = "MediaSession2";
-    static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    static final boolean DEBUG = false;
 
     // Note: This checks the uniqueness of a session ID only in a single process.
     // When the framework becomes able to check the uniqueness, this logic should be removed.

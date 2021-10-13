@@ -37,7 +37,7 @@ import java.util.List;
 public abstract class GnssAntennaInfoProvider
         extends RemoteListenerHelper<Void, IGnssAntennaInfoListener> {
     private static final String TAG = "GnssAntennaInfoProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final GnssAntennaInfoProviderNative mNative;
 

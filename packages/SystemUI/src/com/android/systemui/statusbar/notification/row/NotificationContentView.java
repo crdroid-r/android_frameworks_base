@@ -74,7 +74,7 @@ import java.util.ArrayList;
 public class NotificationContentView extends FrameLayout {
 
     private static final String TAG = "NotificationContentView";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     public static final int VISIBLE_TYPE_CONTRACTED = 0;
     public static final int VISIBLE_TYPE_EXPANDED = 1;
     public static final int VISIBLE_TYPE_HEADSUP = 2;

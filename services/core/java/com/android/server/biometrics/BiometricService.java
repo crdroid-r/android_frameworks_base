@@ -80,7 +80,7 @@ import java.util.Random;
 public class BiometricService extends SystemService {
 
     static final String TAG = "BiometricService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static final int BIOMETRIC_NO_HARDWARE = 0;
     private static final int BIOMETRIC_OK = 1;

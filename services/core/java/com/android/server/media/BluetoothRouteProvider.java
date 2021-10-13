@@ -53,7 +53,7 @@ import java.util.Objects;
 
 class BluetoothRouteProvider {
     private static final String TAG = "BTRouteProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private static final String HEARING_AID_ROUTE_ID_PREFIX = "HEARING_AID_";
 

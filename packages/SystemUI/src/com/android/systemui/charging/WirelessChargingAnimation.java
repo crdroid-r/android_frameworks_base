@@ -37,7 +37,7 @@ public class WirelessChargingAnimation {
 
     public static final long DURATION = 1133;
     private static final String TAG = "WirelessChargingView";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final WirelessChargingView mCurrentWirelessChargingView;
     private static WirelessChargingView mPreviousWirelessChargingView;

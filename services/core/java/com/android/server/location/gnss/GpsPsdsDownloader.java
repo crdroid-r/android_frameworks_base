@@ -39,7 +39,7 @@ import java.util.concurrent.TimeUnit;
 public class GpsPsdsDownloader {
 
     private static final String TAG = "GpsPsdsDownloader";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     private static final long MAXIMUM_CONTENT_LENGTH_BYTES = 1000000;  // 1MB.
     private static final String DEFAULT_USER_AGENT = "Android";
     private static final int CONNECTION_TIMEOUT_MS = (int) TimeUnit.SECONDS.toMillis(30);

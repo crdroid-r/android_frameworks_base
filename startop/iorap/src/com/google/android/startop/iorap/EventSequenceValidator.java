@@ -97,7 +97,7 @@ import java.io.PrintWriter;
 public class EventSequenceValidator implements ActivityMetricsLaunchObserver {
   static final String TAG = "EventSequenceValidator";
   /** $> adb shell 'setprop log.tag.EventSequenceValidator VERBOSE' */
-  public static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+  public static final boolean DEBUG = false;
   private State state = State.INIT;
   private long accIntentStartedEvents = 0;
 

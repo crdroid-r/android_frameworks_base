@@ -58,7 +58,7 @@ public abstract class MediaSession2Service extends Service {
     public static final String SERVICE_INTERFACE = "android.media.MediaSession2Service";
 
     private static final String TAG = "MediaSession2Service";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final MediaSession2.ForegroundServiceEventCallback mForegroundServiceEventCallback =
             new MediaSession2.ForegroundServiceEventCallback() {

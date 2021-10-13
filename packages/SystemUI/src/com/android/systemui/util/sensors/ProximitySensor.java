@@ -56,7 +56,7 @@ import javax.inject.Inject;
  */
 public class ProximitySensor implements ThresholdSensor {
     private static final String TAG = "ProxSensor";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     private static final long SECONDARY_PING_INTERVAL_MS = 5000;
 
     private final ThresholdSensor mPrimaryThresholdSensor;

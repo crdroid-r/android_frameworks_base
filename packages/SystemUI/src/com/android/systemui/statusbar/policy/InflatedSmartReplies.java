@@ -49,7 +49,7 @@ import java.util.List;
  */
 public class InflatedSmartReplies {
     private static final String TAG = "InflatedSmartReplies";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     @Nullable private final SmartReplyView mSmartReplyView;
     @Nullable private final List<Button> mSmartSuggestionButtons;
     @NonNull private final SmartRepliesAndActions mSmartRepliesAndActions;

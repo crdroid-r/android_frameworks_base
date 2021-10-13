@@ -38,7 +38,7 @@ import com.android.server.location.RemoteListenerHelper;
 public abstract class GnssMeasurementsProvider
         extends RemoteListenerHelper<GnssRequest, IGnssMeasurementsListener> {
     private static final String TAG = "GnssMeasProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final GnssMeasurementProviderNative mNative;
 

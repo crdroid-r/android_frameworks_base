@@ -75,7 +75,7 @@ import javax.inject.Singleton;
 @Singleton
 public class QSTileHost implements QSHost, Tunable, PluginListener<QSFactory>, Dumpable {
     private static final String TAG = "QSTileHost";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     private static final int MAX_QS_INSTANCE_ID = 1 << 20;
 
     public static final String TILES_SETTING = Secure.QS_TILES;

@@ -104,7 +104,7 @@ import java.util.concurrent.RejectedExecutionException;
 @SystemService(Context.CONNECTIVITY_SERVICE)
 public class ConnectivityManager {
     private static final String TAG = "ConnectivityManager";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     /**
      * A change in network connectivity has occurred. A default connection has either
