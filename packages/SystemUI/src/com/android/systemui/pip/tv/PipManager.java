@@ -71,7 +71,7 @@ import javax.inject.Singleton;
 @Singleton
 public class PipManager implements BasePipManager, PipTaskOrganizer.PipTransitionCallback {
     private static final String TAG = "PipManager";
-    static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    static final boolean DEBUG = false;
 
     private static final String SETTINGS_PACKAGE_AND_CLASS_DELIMITER = "/";
 

@@ -57,7 +57,7 @@ import java.util.concurrent.Executor;
  */
 public class MediaController2 implements AutoCloseable {
     static final String TAG = "MediaController2";
-    static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    static final boolean DEBUG = false;
 
     @SuppressWarnings("WeakerAccess") /* synthetic access */
     final ControllerCallback mCallback;

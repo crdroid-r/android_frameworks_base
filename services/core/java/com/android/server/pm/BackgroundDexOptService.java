@@ -60,7 +60,7 @@ import java.util.function.Supplier;
 public class BackgroundDexOptService extends JobService {
     private static final String TAG = "BackgroundDexOptService";
 
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private static final int JOB_IDLE_OPTIMIZE = 800;
     private static final int JOB_POST_BOOT_UPDATE = 801;

@@ -30,7 +30,7 @@ import com.android.server.location.RemoteListenerHelper;
 public abstract class GnssStatusListenerHelper extends
         RemoteListenerHelper<Void, IGnssStatusListener> {
     private static final String TAG = "GnssStatusListenerHelper";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     protected GnssStatusListenerHelper(Context context, Handler handler) {
         super(context, handler, TAG);

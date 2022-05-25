@@ -36,7 +36,7 @@ import javax.inject.Singleton;
 @Singleton
 public class DozeScrimController implements StateListener {
     private static final String TAG = "DozeScrimController";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final DozeLog mDozeLog;
     private final DozeParameters mDozeParameters;

@@ -52,7 +52,7 @@ import java.util.Iterator;
 class GnssNetworkConnectivityHandler {
     static final String TAG = "GnssNetworkConnectivityHandler";
 
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
     private static final boolean VERBOSE = Log.isLoggable(TAG, Log.VERBOSE);
 
     // for mAGpsDataConnectionState

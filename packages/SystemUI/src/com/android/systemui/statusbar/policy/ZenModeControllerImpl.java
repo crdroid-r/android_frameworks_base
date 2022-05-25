@@ -58,7 +58,7 @@ import javax.inject.Singleton;
 public class ZenModeControllerImpl extends CurrentUserTracker
         implements ZenModeController, Dumpable {
     private static final String TAG = "ZenModeController";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final ArrayList<Callback> mCallbacks = new ArrayList<>();
     private final Object mCallbacksLock = new Object();

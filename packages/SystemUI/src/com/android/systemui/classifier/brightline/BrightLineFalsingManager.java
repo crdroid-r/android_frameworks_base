@@ -54,7 +54,7 @@ import java.util.stream.Collectors;
 public class BrightLineFalsingManager implements FalsingManager {
 
     private static final String TAG = "FalsingManager";
-    static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    static final boolean DEBUG = false;
 
     private static final int RECENT_INFO_LOG_SIZE = 40;
     private static final int RECENT_SWIPE_LOG_SIZE = 20;

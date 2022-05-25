@@ -67,7 +67,7 @@ import javax.inject.Singleton;
 public class NotificationPanelViewController extends OverlayPanelViewController
         implements CommandQueue.Callbacks {
 
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static final String TAG = "NotificationPanelViewController";
 
     private final Context mContext;

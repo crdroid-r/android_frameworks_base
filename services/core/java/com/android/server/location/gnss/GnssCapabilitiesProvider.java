@@ -26,7 +26,7 @@ import com.android.internal.annotations.GuardedBy;
  */
 public class GnssCapabilitiesProvider {
     private static final String TAG = "GnssCapabilitiesProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private static final long GNSS_CAPABILITIES_TOP_HAL =
             GnssCapabilities.LOW_POWER_MODE | GnssCapabilities.SATELLITE_BLACKLIST

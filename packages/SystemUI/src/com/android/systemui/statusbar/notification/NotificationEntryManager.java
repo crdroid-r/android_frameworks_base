@@ -100,7 +100,7 @@ public class NotificationEntryManager implements
         Dumpable,
         VisualStabilityManager.Callback {
     private static final String TAG = "NotificationEntryMgr";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     /**
      * Used when a notification is removed and it doesn't have a reason that maps to one of the

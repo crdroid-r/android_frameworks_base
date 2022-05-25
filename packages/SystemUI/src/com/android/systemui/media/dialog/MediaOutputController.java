@@ -67,7 +67,7 @@ import javax.inject.Inject;
 public class MediaOutputController implements LocalMediaManager.DeviceCallback {
 
     private static final String TAG = "MediaOutputController";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final String mPackageName;
     private final Context mContext;

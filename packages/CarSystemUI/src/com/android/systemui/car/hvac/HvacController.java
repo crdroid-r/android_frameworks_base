@@ -49,7 +49,7 @@ import javax.inject.Singleton;
 @Singleton
 public class HvacController {
     public static final String TAG = "HvacController";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private final CarServiceProvider mCarServiceProvider;
     private final Set<TemperatureView> mRegisteredViews = new HashSet<>();

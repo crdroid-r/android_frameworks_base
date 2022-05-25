@@ -29,7 +29,7 @@ import com.android.internal.annotations.VisibleForTesting;
 class GnssGeofenceProvider extends IGpsGeofenceHardware.Stub {
 
     private static final String TAG = "GnssGeofenceProvider";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     /** Holds the parameters of a geofence. */
     private static class GeofenceEntry {

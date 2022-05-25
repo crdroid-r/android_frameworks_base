@@ -56,7 +56,7 @@ public class QSSecurityFooter implements OnClickListener, DialogInterface.OnClic
             "system:" + Settings.System.QS_FOOTER_WARNINGS;
 
     protected static final String TAG = "QSSecurityFooter";
-    protected static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    protected static final boolean DEBUG = false;
     private static final boolean DEBUG_FORCE_VISIBLE = false;
 
     private final View mRootView;

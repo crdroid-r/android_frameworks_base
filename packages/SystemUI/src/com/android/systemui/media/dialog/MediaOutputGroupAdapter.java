@@ -38,7 +38,7 @@ import java.util.List;
 public class MediaOutputGroupAdapter extends MediaOutputBaseAdapter {
 
     private static final String TAG = "MediaOutputGroupAdapter";
-    private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
+    private static final boolean DEBUG = false;
 
     private final List<MediaDevice> mGroupMediaDevices;
 
