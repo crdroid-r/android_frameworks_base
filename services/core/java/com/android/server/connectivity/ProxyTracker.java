@@ -48,7 +48,7 @@ import java.util.Objects;
  */
 public class ProxyTracker {
     private static final String TAG = ProxyTracker.class.getSimpleName();
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
 
     @NonNull
     private final Context mContext;

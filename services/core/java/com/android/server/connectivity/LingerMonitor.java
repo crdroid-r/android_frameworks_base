@@ -51,7 +51,7 @@ import java.util.HashMap;
  */
 public class LingerMonitor {
 
-    private static final boolean DBG = true;
+    private static final boolean DBG = false;
     private static final boolean VDBG = false;
     private static final String TAG = LingerMonitor.class.getSimpleName();
 
